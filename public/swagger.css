@@ -1,0 +1,23 @@
+/* Hide default Swagger logo */
+.swagger-ui .topbar .link img {
+    display: none;
+}
+
+.swagger-ui .topbar a {
+    display: contents !important;
+}
+
+.topbar-wrapper a svg {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Add your custom logo */
+.swagger-ui .topbar .link::before {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 40px;
+    background: url("https://danielpecos.com/assets/2017/09/swaggerfornodejs.jpg") no-repeat center;
+    background-size: contain;
+}
