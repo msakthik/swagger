@@ -91,3 +91,7 @@ git push -u origin master
 Refresh GitHub → your code is there 🚀
 
 ---
+
+# ✔ No dirty state:
+
+git status -z -uall
