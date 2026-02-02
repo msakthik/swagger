@@ -94,4 +94,15 @@ Refresh GitHub → your code is there 🚀
 
 # ✔ No dirty state:
 
+```bash
 git status -z -uall
+```
+
+# Fix (safe & recommended)
+
+```bash
+git mv README.MD README.md
+git add README.md
+git commit -m "Fix README case and content"
+git push
+```
