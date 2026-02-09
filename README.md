@@ -106,3 +106,23 @@ git add README.md
 git commit -m "Fix README case and content"
 git push
 ```
+
+# Delete command
+
+```bash
+commands:
+git branch -D feature/login
+git push origin --delete feature/login
+```
+
+# Reset command
+
+```bash
+git reset --merge HEAD~1
+```
+
+# ngrok run command
+
+```bash
+run command: ngrok http 9017
+```
